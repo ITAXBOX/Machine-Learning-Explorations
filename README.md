@@ -16,7 +16,7 @@ A collection of foundational machine learning projects showcasing learning and e
   - Test with additional features and other clustering algorithms.
   - Deploy the model for real-time customer segmentation.
 
-### [Water Potability Prediction using Machine Learning](https://github.com/ITAXBOX/Water-Potability-Prediction)
+### [Water Potability Prediction using KNN and Decision Tree algorithms](https://github.com/ITAXBOX/Water-Potability-Prediction)
 - **Overview**: This project aims to predict water potability using physicochemical parameters. It provides a machine learning-based approach for monitoring water quality efficiently.
 - **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib
 - **Highlights**:
