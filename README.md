@@ -1,33 +1,9 @@
 # Machine Learning Explorations
-
 A collection of foundational machine learning projects showcasing learning and experimentation with diverse algorithms and datasets.
-
 ---
-
 ## Projects
 
-### [Mall Customer Segmentation using K-Means Clustering](https://github.com/ITAXBOX/Mall-Customers-Segmentation)
-- **Overview**: Customer segmentation is a critical marketing strategy that helps businesses identify distinct customer groups based on their behaviors and characteristics. This project uses the K-Means clustering algorithm to group mall customers based on their Annual Income and Spending Score.
-- **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib
-- **Highlights**:
-  - Identified distinct customer clusters for targeted marketing strategies.
-  - Visualized spending patterns and income distribution across groups.
-- **Future Work**:
-  - Test with additional features and other clustering algorithms.
-  - Deploy the model for real-time customer segmentation.
-
-### [Water Potability Prediction using KNN and Decision Tree algorithms](https://github.com/ITAXBOX/Water-Potability-Prediction)
-- **Overview**: This project aims to predict water potability using physicochemical parameters. It provides a machine learning-based approach for monitoring water quality efficiently.
-- **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib
-- **Highlights**:
-  - Applied KNN and Decision Tree algorithms, achieving up to 67.5% accuracy.
-  - Balanced imbalanced datasets using SMOTE.
-  - Identified key factors like pH and Hardness influencing water potability.
-- **Future Work**:
-  - Experiment with advanced algorithms like Random Forest and Gradient Boosting.
-  - Collect more diverse datasets and deploy the model for real-world use.
-
- ### [Loan Eligibility Prediction using Decision Tree](https://github.com/ITAXBOX/Loan-Eligibility-Prediction)
+### [Loan Eligibility Prediction using Decision Tree](https://github.com/ITAXBOX/Loan-Eligibility-Prediction)
 - **Overview**: Automating loan eligibility decisions can save time and ensure consistency in financial institutions. This project builds a predictive model using a Decision Tree algorithm to determine whether applicants are eligible for home loans based on various parameters such as income, credit history, and property area.
 - **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib, Seaborn, SMOTE
 - **Highlights**:
@@ -41,3 +17,36 @@ A collection of foundational machine learning projects showcasing learning and e
   - Adjust decision thresholds to prioritize recall for ineligible applicants.
   - Incorporate additional data (e.g., employment history, detailed credit scores) to enhance predictive power.
   - Develop a web application or API for real-time loan eligibility predictions.
+
+### [Mall Customer Segmentation using K-Means Clustering](https://github.com/ITAXBOX/Mall-Customers-Segmentation)
+- **Overview**: Customer segmentation is a critical marketing strategy that helps businesses identify distinct customer groups based on their behaviors and characteristics. This project uses the K-Means clustering algorithm to group mall customers based on their Annual Income and Spending Score.
+- **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib
+- **Highlights**:
+  - Identified distinct customer clusters for targeted marketing strategies.
+  - Visualized spending patterns and income distribution across groups.
+- **Future Work**:
+  - Test with additional features and other clustering algorithms.
+  - Deploy the model for real-time customer segmentation.
+
+### [Titanic Survival Prediction Using Random Forest](https://github.com/ITAXBOX/Titanic-Survival-Prediction)
+- **Overview**: The Titanic dataset is one of the most famous datasets in machine learning, often used for binary classification problems. This project predicts whether passengers aboard the Titanic survived or not based on features such as age, gender, ticket class, and family size. A Random Forest Classifier was used to achieve an accuracy of **0.79** on the Kaggle leaderboard.
+- **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib, Seaborn
+- **Highlights**:
+  - Achieved an accuracy of **0.79** on the Kaggle leaderboard.
+  - Performed feature engineering to create new features like Family Size and Title.
+  - Analyzed feature importance to identify key predictors like Sex, Pclass, and Fare.
+- **Future Work**:
+  - Experiment with ensemble methods like Gradient Boosting or XGBoost for improved performance.
+  - Incorporate additional features or external datasets to enhance predictive power.
+  - Develop a web application or API for real-time survival prediction.
+
+### [Water Potability Prediction using KNN and Decision Tree Algorithms](https://github.com/ITAXBOX/Water-Potability-Prediction)
+- **Overview**: This project aims to predict water potability using physicochemical parameters. It provides a machine learning-based approach for monitoring water quality efficiently.
+- **Technologies Used**: Python, Scikit-learn, Pandas, Matplotlib
+- **Highlights**:
+  - Applied KNN and Decision Tree algorithms, achieving up to 67.5% accuracy.
+  - Balanced imbalanced datasets using SMOTE.
+  - Identified key factors like pH and Hardness influencing water potability.
+- **Future Work**:
+  - Experiment with advanced algorithms like Random Forest and Gradient Boosting.
+  - Collect more diverse datasets and deploy the model for real-world use.
